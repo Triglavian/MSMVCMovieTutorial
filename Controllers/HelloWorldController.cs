@@ -39,7 +39,7 @@ public class HelloWorldController : Controller
 
     /*
     //https://localhost:7053/HelloWorld/Welcome/3?name=Rick
-    //Thid segment is same with route parameter id.
+    //Thid segment is same with route parameter "id".
     //Welcome method includes id parameter same with url template in MapControllerRoute method.
     //The tailing ?(id?, 3?) means the begin of query string
     public string Welcome(string name, int ID = 1)
